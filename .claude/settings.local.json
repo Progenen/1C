@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/torti/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/a14403df-bad9-4c3f-9d1a-8abb391a2ee8/8c36b983-9082-441f-b379-56efe1c204be/skills/docx/**)",
+      "Bash(pandoc \"C:\\\\Users\\\\torti\\\\Work\\\\apps\\\\1c\\\\1C_ans.docx\" -t plain)",
+      "Bash(python3 -c ' *)",
+      "Bash(python \"C:/Users/torti/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/a14403df-bad9-4c3f-9d1a-8abb391a2ee8/8c36b983-9082-441f-b379-56efe1c204be/skills/docx/scripts/office/unpack.py\" \"C:/Users/torti/Work/apps/1c/1C_ans.docx\" \"C:/Users/torti/Work/apps/1c/unpacked\")",
+      "PowerShell($paths = @\\(\"C:\\\\Python312\\\\python.exe\",\"C:\\\\Python311\\\\python.exe\",\"C:\\\\Python310\\\\python.exe\",\"C:\\\\Users\\\\torti\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\",\"C:\\\\Users\\\\torti\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\",\"C:\\\\ProgramData\\\\Anaconda3\\\\python.exe\",\"C:\\\\Users\\\\torti\\\\anaconda3\\\\python.exe\",\"C:\\\\Users\\\\torti\\\\miniconda3\\\\python.exe\"\\); foreach\\($p in $paths\\){if\\(Test-Path $p\\){Write-Output $p}})",
+      "Bash(unzip -o \"C:/Users/torti/Work/apps/1c/1C_ans.docx\" -d \"C:/Users/torti/Work/apps/1c/unpacked_docx\")",
+      "Bash(grep -v '^$')",
+      "Bash(grep -v '^[[:space:]]*$')"
+    ]
+  }
+}
